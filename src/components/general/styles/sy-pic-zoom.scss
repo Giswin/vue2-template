@@ -1,0 +1,126 @@
+//图片局部放大
+.min-zoom {
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.img-left {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	color: #999;
+	width: 15px;
+	bottom: 0px;
+	background: #fff;
+	z-index: 9;
+	cursor: pointer;
+}
+.img-right {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	color: #999;
+	width: 15px;
+	bottom: 0px;
+	background: #fff;
+	z-index: 9;
+	cursor: pointer;
+}
+.min-zoom i {
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: #999;
+}
+.img-left:hover i {
+	color: #333;
+}
+.img-right:hover i {
+	color: #333;
+}
+.min-zoom ul {
+	width: 500%;
+	position: absolute;
+	top: 10px;
+	padding: 0px 15px;
+	transition: all 0.3s ease-out 0.1s;
+	bottom: 0px;
+	box-sizing: border-box;
+}
+.min-zoom ul li {
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+.min-zoom ul li > .img {
+	position: absolute;
+	border: 1px solid $sy-border-color;
+	top: 3px;
+	right: 3px;
+	left: 3px;
+	bottom: 3px;
+}
+.min-zoom ul li > .show {
+	border: 2px solid $sy-primary-color;
+	box-sizing: border-box;
+}
+.min-zoom ul li img {
+	max-height: 100%;
+	margin: auto;
+	max-width: 100%;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+.magnifier {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: auto;
+	border: 1px solid #ddd;
+	background: #f6f6f6;
+}
+
+.small-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.magnifier > .small-box > .smallPic {
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+}
+
+.magnifier-layer {
+	top: 0;
+	position: absolute;
+	overflow: hidden;
+}
+
+.magnifier-zoom {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.big-box {
+	position: absolute;
+}

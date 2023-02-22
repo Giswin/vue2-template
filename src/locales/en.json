@@ -1,0 +1,159 @@
+{
+    "language":"en",
+
+    "hello": "hello",
+
+    "table": {
+        "date": "Date",
+        "name": "Name",
+        "address": "Address"
+    },
+
+    "menu":[
+        {"title":"Home"},
+        {"title":"Goods"},
+        {"title":"Order"},
+        {"title":"Purchase"},
+        {"title":"Project"},
+        {"title":"Shipment"},
+        {"title":"Analysis","childrenTitle":["Order Analysis","Purchase Analysis"]}
+    ],
+
+    "headHome":"Home",
+
+    "headIconTips":{
+        "fullScreen":"Full Screen Mode",
+        "refresh":"Refresh",
+        "delete":"Delete Cached Data"
+    },
+
+    "Quit":"Log Out",
+
+    "homeContent":"Welcome to home!",
+
+    "goodsTabs":["Enable","Disable"],
+
+    "filterCondition":"Filter Condition",
+
+    "filter":"Filter",
+
+    "goodsSerch":"Goods No / Goods Name / Customer / Salesman",
+
+    "new":"New",
+
+    "delete":"Delete",
+
+    "copy":"Copy",
+
+    "edit":"Edit",
+
+    "clearCondition":"Clear Condition",
+
+    "createTime":"Create Time",
+
+    "goodsNo":"Goods No",
+
+    "goodsName":"Goods Name",
+
+    "customer":"Customer",
+
+    "salesman":"Salesman",
+
+    "more":"More",
+
+    "S/N":"S/N",
+
+    "department":"Department",
+
+    "category":"Category",
+
+    "cnGoodsName":"Goods Name(CN)",
+
+    "enGoodsName":"Goods Name(EN)",
+
+    "operation":"Operation",
+
+    "advancedFilterCondition":"Advanced Filter Condition",
+
+    "filterConditionSetting":"Filter Condition Setting",
+
+    "confirm":"Confirm",
+
+    "cancel":"Cancel",
+
+    "reset":"Reset",
+
+    "select":"Select",
+
+    "selectDate":"Select Date",
+
+    "tips":"Tips",
+
+    "goodsDelTips":"Are you sure you want to delete this ?",
+
+    "goodsDelmsg":"Product information deleted successfully!",
+
+    "delCancel":"Cancelled deletion",
+
+    "goodsEdit":"Goods Edit",
+
+    "code":"Code",
+
+    "baseInfo":"Base Information",
+
+    "orderInfo":"Order Information",
+
+    "createInfo":"Create Information",
+
+    "alterInfo":"Alter Information",
+
+    "enable/disable":"Enable/Disable",
+
+    "enable":"Enable",
+
+    "disable":"Disable",
+
+    "statisticalTag":"Statistical Tag",
+
+    "goodsPicture":"Goods Picture",
+
+    "uploadPicTip":"Click to upload pictures",
+
+    "orderRecords":"Order Records",
+
+    "save":"Save",
+
+    "orderNo":"Order No",
+
+    "publishInfo":"Publish Info",
+
+    "businessType":"Business Type",
+
+    "receivingDate":"Receiving Date",
+
+    "specifications":"Specifications",
+
+    "orderQuantity":"Order Quantity",
+
+    "orderPrice":"Order Price",
+
+    "orderAmount":"Order Amount",
+
+    "goodsCopyTips":"Are you sure to copy the product information",
+
+    "copyCancel":"Canceled Copy ",
+
+    "goodsCopymsg":"Product information copied successfully!",
+
+    "keywordsSelect":"Please enter keywords to select",
+
+    "uploadPictures":"Upload Pictures",
+
+    "bj":"ceshi",
+
+    "wangLanguage":"en",
+
+    "wangDefaultContent":"Please input content..."
+
+    
+}
