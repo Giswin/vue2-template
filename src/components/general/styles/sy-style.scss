@@ -1,0 +1,35 @@
+//上游公司自己编译通用样式
+ul,li {margin: 0;list-style: none;}
+a {display: block;color:$sy-default-color;font-family: $sy-font-family;} //链接色
+a:hover{color: $sy-primary-color;}
+samp{font-family: $sy-font-family;}
+span{font-family: $sy-font-family;}
+i{font-style: normal;}
+//div浮动位置
+.m-l {float: left;} //左浮动
+.m-r {float: right;} //右浮动
+.m-c {margin: auto;} //居中
+//字体对齐
+.t-l {text-align: left;} //字体左对齐
+.t-r {text-align: right;} //字体右对齐
+.t-c {text-align: center;} //字体居中
+.clear {clear: both;} //凡事不在vxe-row下有左右对齐样式，必须在下面增加class="clear"，清除浮动。
+.hidden {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.hidden-2{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:2; }
+.hidden-3{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical;-webkit-line-clamp:3; }
+//颜色
+.green{color:green}
+.primary{color:$sy-primary-color}
+.success{color:$sy-success-color}
+.info{color:$sy-info-color}
+.warning{color:$sy-warning-color}
+.danger{color:$sy-error-color}
+.red{color:red}
+//背景颜色
+.bg-default{background:#fff; color: $sy-default-color; border: 1px solid $sy-border-color;}
+.bg-primary{background:$sy-primary-color; color: #fff; border: 1px solid $sy-primary-color;}
+.bg-success{background:$sy-success-color; color: #fff; border: 1px solid $sy-success-color;}
+.bg-info{background:$sy-info-color;color: #fff; border: 1px solid $sy-info-color;}
+.bg-warning{background:$sy-warning-color; color: #fff; border: 1px solid $sy-warning-color;}
+.bg-danger{background:$sy-error-color; color: #fff; border: 1px solid $sy-error-color;}
+

@@ -1,0 +1,10 @@
+@import 'vxe-table/styles/variable.scss';
+
+$vxe-font-color:$default-color;
+$vxe-primary-color: $primary-color;
+$vxe-table-font-color: $vxe-font-color;
+$vxe-table-border-color:$border-color;
+$vxe-table-border-radius: 3px;
+$vxe-border-radius:4px;
+
+@import 'vxe-table/styles/modules.scss';

@@ -1,0 +1,7 @@
+label{font-size: 14px;}
+.notetitle{cursor: pointer;}
+.notetitle:hover{background-color: #eaf4fe;}//移上样式
+.notetitle-selected{background-color: #d5e8fc;}//点击后样式
+ul.tree-ul li{line-height:28px;}
+.tree-square{font-size:17px;margin-right: 8px;margin-top:6px;color:$sy-default-color;margin-left: 5px;width:0.5em;height: 1em;}
+.tree-folder{font-size:14px;margin-right: 8px;margin-top:8px;color:$sy-ioc-color;margin-left:0px}
